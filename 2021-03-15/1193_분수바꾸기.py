@@ -1,5 +1,11 @@
 X = int(input())
 
-cnt = 0
-while cnt < X:
+num = 1
+total = 0
+while total < X:
+    total += num
+    if total == X: 
+        res = num
+    cnt += 1
+
     
